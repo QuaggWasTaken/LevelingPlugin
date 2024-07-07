@@ -2,7 +2,7 @@
 using Dalamud.Plugin;
 using System;
 
-namespace SamplePlugin;
+namespace Levelway;
 
 [Serializable]
 public class Configuration : IPluginConfiguration
@@ -15,6 +15,6 @@ public class Configuration : IPluginConfiguration
     // the below exist just to make saving less cumbersome
     public void Save()
     {
-        Plugin.PluginInterface.SavePluginConfig(this);
+        Levelway.PluginInterface.SavePluginConfig(this);
     }
 }

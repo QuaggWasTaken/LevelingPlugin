@@ -1,0 +1,12 @@
+{
+  "Author": "RynVixen",
+  "Name": "Levelway",
+  "Punchline": "Tired of guessing how many collectables to make only to be short? Not anymore!",
+  "Description": "A description that shows up in /xlplugins. List any major slash-command(s).",
+  "ApplicableVersion": "any",
+  "Tags": [
+    "level",
+    "plugin",
+    "calculator"
+  ]
+}
